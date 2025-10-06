@@ -38,13 +38,13 @@ Deine aktuelle Datei sollte so aussehen (Beispiel):
 }
 ```
 
-Ändere `LeaderboardID` oder `GameID` und speichere die Datei — das Poller-Script lädt die neue Konfiguration beim nächsten Poll automatisch.
+Ändere `LeaderboardID` oder `GameID` und speichere die Datei — das Poller-Script lädt die neue Konfiguration beim nächsten Poll (alle 10 sec) automatisch.
 
 ---
 
 ## `write_ra_leaderboards.py` — Benutzung
 
-1. Öffne die Datei und trage ganz oben deinen `USER` und `API_KEY` ein (beide Variablen sind aktuell leer):
+1. Öffne die Datei und trage ganz oben deinen `USER` und `API_KEY` ein (beide Variablen sind aktuell ungültig):
 
 ```py
 USER = "deinUser"
